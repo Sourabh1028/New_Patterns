@@ -85,7 +85,7 @@ public class NewPatternsApplication {
             System.out.println();
         }
 
-        Que-8 */
+        Que-8
 		int n=5;
 		for(int i=1;i<=n;i++){
 			for(int j=1;j<=n;j++){
@@ -95,8 +95,64 @@ public class NewPatternsApplication {
 				else{
 					System.out.print(" ");
 				}
-				System.out.println();
 			}
+			System.out.println();
 		}
+
+        Que-9
+		int n = 5;
+		for (int i = 1; i <= n; i++) {
+			for (int space = 1; space <= n - i; space++) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= 2 * i - 1; j++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+
+        Que-10
+		int n = 5;
+
+		for (int i = n; i >= 1; i--) {
+			for (int space = 0; space < n - i; space++) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= 2 * i - 1; j++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+
+        Que-11
+		int n = 5;
+		for (int i = 1; i <= n; i++) {
+			for (int space = 1; space <= n - i; space++) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= i; j++) {
+				System.out.print("*   ");
+			}
+			System.out.println();
+		}
+
+        Que-11
+		int n = 5;
+		for (int i = 1; i <= n; i++) {
+			for (int j = 1; j <= n - i; j++) {
+				System.out.print("  ");
+			}
+			for (int k = 1; k <= 2 * i - 1; k++) {
+				if (k % 2 == 0) {
+					System.out.print("! ");
+				} else {
+					System.out.print("* ");
+				}
+			}
+			System.out.println();
+		}
+
+        Que-13 */
+
 	}
 }
